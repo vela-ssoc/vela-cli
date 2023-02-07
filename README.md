@@ -10,7 +10,7 @@
     vela-cli.exe create crawler 
     # 同步模块 
     go mod tidy
-   
+  
     # 运行 或者 调试 
     go run main.go
 ```
@@ -52,8 +52,8 @@ func main() {
     }))
 
     deploy.Debug(kit.Hide{
-        Lan:      []string{"ws://172.31.61.168:8082"}, //调试入口
-        Hostname: "vela-ssoc.eastmoney.com", //调试管理后台主机名
+        Lan:      []string{"ws://127.0.0.1"}, //调试入口
+        Hostname: "broker.vela-ssoc.com", //调试管理后台主机名
         Edition:  "2.2.0",
         Protect:  true,
     })
