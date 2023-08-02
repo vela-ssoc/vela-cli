@@ -3,11 +3,11 @@
 
 ## 常用命令 
 ```bash
-    # 初始化环境
-    vela-cli.exe init 
+    # 初始化环境 
+    vela-cli.exe init [path]
     
     # 创建功能模块
-    vela-cli.exe create crawler 
+    vela-cli.exe create crawler [path]
     # 同步模块 
     go mod tidy
   
